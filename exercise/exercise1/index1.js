@@ -1,23 +1,16 @@
 // Playing around with objects
-let car = {
-    make: 'Audi',
-    year: 2025,
-    color: 'black'
+let pizza = {
+    kind: 'Ham',
+    size: 'large'
 }
+pizza.kind = 'margherita';
+pizza.size = 'small'
+console.log(pizza);
 
-console.dir(car) // displays list of properties of an object
+//Bracket notation
+pizza ['kind'] = 'meat lovers';
+pizza ['size'] = 'medium';
+console.log(pizza);
 
-let person = {
-    name: 'Alice',
-    age: 24,
-    occupation: 'teacher'
-}
-console.log(person.occupation) //dot notation
-
-let fruit = {
-    color: 'red',
-    taste: 'sweet',
-    seeds: 1,
-}
-console.log(fruit["taste"]) //bracket notation
-
+//Removing trailing spaces
+console.log(string.Trim().length);
